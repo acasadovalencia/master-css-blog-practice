@@ -1,0 +1,228 @@
+@media screen and (max-width:1250px){
+    .wrap{
+        width: 90%;
+        margin:0 auto;
+    }
+    #banner h1{
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+        width: 100%;
+    }
+    .card{
+        margin: 1.45%;
+        width: 17%;
+    }
+    .card p{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+    .articles{
+        width: 65%;
+    }
+    .articles article{
+        width: 97%;
+    }
+    #footer .wrap > div{
+        margin: 3%;
+        width: 26%;
+    }
+    #footer .browsers img{
+        width: 14%;
+    }
+    #footer h5{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1080px){
+    .card .category{
+        font-size: 17px;
+    }
+    .card .description{
+        font-size: 14px;
+    }
+    .articles{
+        width: 61%;
+    }
+}
+@media screen and (max-width:970px){
+    .articles{
+        width: 59%;
+    }
+    .articles p{
+        font-size: 13px;
+    }
+    .articles h4 a{
+        font-size: 19px;
+    }
+    #footer .wrap > div{
+        margin: 20px;
+        width: 26%;
+    }
+    #footer h5{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:925px){
+    .articles{
+        width: 65%;
+    }
+    #aside{
+        width: 25%;
+    }
+    #aside input[type="text"]{
+        width: 78%;
+    }
+    .aside-box{
+        width: 95%;
+        height: auto;
+        min-height: 240px;
+        padding-bottom: 10px;
+    }
+    #login a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #login input[type="email"],
+    #login input[type="password"]{
+        width: 65%;
+    }
+    #login #user,
+    #login #password{
+        margin-left: 40px;
+    }
+    #login input[type="submit"],
+    #login input[type="button"], 
+    #login input[type="reset"], 
+    #login button {
+        margin-bottom: 0px;
+    }
+    #login input[type="reset"]{
+        display: none;
+    } 
+}
+@media screen and (max-width:899px){
+    #aside h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:799px){
+    #banner h1{
+        font-size: 29px;
+    }
+    .card{
+        height: auto;
+    }
+    .card .category{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+    .card .description{
+        display: none;
+    }
+    #footer img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:724px){
+    #header{
+        height: 120px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    #nav{
+        clear: both;
+        float: none;
+        margin: 0 auto;
+        width: 440px;
+    }
+    .logo{
+        float: none;
+        margin: 0 auto;
+    }
+    #aside input[type="text"]{
+        width: 68%;
+    }
+}
+@media screen and (max-width:660px){
+    .articles{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        min-height: auto;
+    }
+    #aside{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        min-height: auto;
+    }
+    #banner h1{
+        font-size: 25px;
+    }
+    #aside input[type="text"]{
+        width: 88%;
+    }
+    #login input[type="email"],
+    #login input[type="password"]{
+        width: 90%;
+    }
+    #footer .wrap > div{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #footer{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    #footer h5{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:475px){
+    #banner{
+        height: 85px;
+    }
+    #banner h1{
+        font-size: 18px;
+    }
+    .card .icon{
+        font-size: 35px;
+    }
+    .card:hover .icon{
+        font-size: 35px;
+    }
+    .card .category{
+        font-size: 13px;
+    }
+    #nav{
+        width: 100%;
+    }
+    #header{
+        height: 275px;
+    }
+    .logo{
+        float:left;
+    }
+    #nav ul li{
+        width: 100%;
+        line-height: 52px ;
+    }
+    #nav ul li a:hover{
+        transform: 1;
+    }
+    .articles .data{
+        float: none;
+        margin: -10px;
+        border-radius: 0px;
+    }
+    .articles article h4{
+        margin-top: 20px;
+
+    }
+}
+
